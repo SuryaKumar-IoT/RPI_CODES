@@ -1,0 +1,26 @@
+
+step 1: update rpi 
+
+command: sudo apt-get update
+
+step 2: install build essentials
+
+command: sudo apt-get install build-essential python-dev python-openssl
+
+step 3: download library file
+
+command: wget http://www.orangeresearchlabs.com/ORL_Python_DHT.zip
+
+step 4: unzip library file
+
+command: unzip ORL_Python_DHT.zip
+
+step 5: enter into library folder to install
+
+command: cd ORL_python_DHT
+
+step 6: install library
+
+command: sudo python setup.py install
+
+
